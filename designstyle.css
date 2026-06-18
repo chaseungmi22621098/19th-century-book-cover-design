@@ -17,7 +17,9 @@ h1{
     top: 100px;
     width: 50%;  
     z-index: 15;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;    
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -31,16 +33,19 @@ h1{
 #d1:hover {
     aspect-ratio: 1 / 1.4;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height:70vw;
 }
 .book-info1{
   position:absolute;
   top: 100px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+  line-height: 30px;
 }
+
 #d1:hover ~ .book-info1 {
   transform: translatex(20vW);
   transition: transform 0.5s ease;
@@ -54,7 +59,9 @@ h1{
     top: 450px;
     width: 50%; 
     z-index:14;                
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4;  
+    height: auto;
+    max-height:20vW;    
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -68,15 +75,17 @@ h1{
 #d2:hover {
     aspect-ratio: 1 / 1;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info2{
   position:absolute;
   top: 450px;  
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+  line-height: 30px;
 }
 #d2:hover ~ .book-info2 {
   transform: translatex(20vW);
@@ -91,7 +100,9 @@ h1{
     top: 800px;
     width: 50%;
     z-index: 13;
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;     
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -105,15 +116,18 @@ h1{
 #d3:hover {
     aspect-ratio: 1 / 1.3;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info3{
   position:absolute;
   top: 800px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d3:hover ~ .book-info3 {
   transform: translatex(20vW);
@@ -129,7 +143,9 @@ h1{
     top: 1150px;
     width: 50%;   
     z-index: 12;              
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;     
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -144,15 +160,18 @@ h1{
 #d4:hover {
     aspect-ratio: 1 / 1.44;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info4{
   position:absolute;
   top: 1150px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d4:hover ~ .book-info4 {
   transform: translatex(20vW);
@@ -167,7 +186,9 @@ h1{
     top: 1500px;
     width: 50%;  
     z-index: 11;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4;   
+    height: auto;
+    max-height:20vW;   
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -182,15 +203,18 @@ h1{
 #d5:hover {
     aspect-ratio: 1 / 1.27;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info5{
   position:absolute;
   top: 1500px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d5:hover ~ .book-info5 {
   transform: translatex(20vW);
@@ -205,7 +229,9 @@ h1{
     top: 1850px;
     width: 50%;  
     z-index: 10;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;     
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -220,15 +246,18 @@ h1{
 #d6:hover {
     aspect-ratio: 1 / 1.3;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info6{
   position:absolute;
   top: 1850px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d6:hover ~ .book-info6 {
   transform: translatex(20vW);
@@ -244,7 +273,9 @@ h1{
     top:2200px;
     width: 50%;  
     z-index: 9;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;     
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -259,15 +290,18 @@ h1{
 #d7:hover {
     aspect-ratio: 1 / 0.9;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info7{
   position:absolute;
   top: 2200px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d7:hover ~ .book-info7 {
   transform: translatex(20vW);
@@ -282,7 +316,9 @@ h1{
     top: 2550px;
     width: 50%;  
     z-index: 8;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4;   
+    height: auto;
+    max-height:20vW;   
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -297,15 +333,18 @@ h1{
 #d8:hover {
     aspect-ratio: 1 / 1.5;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info8{
   position:absolute;
   top: 2550px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d8:hover ~ .book-info8 {
   transform: translatex(20vW);
@@ -320,7 +359,9 @@ h1{
     top: 2900px;
     width: 50%;  
     z-index: 7;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4;  
+    height: auto;
+    max-height:20vW;    
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -335,15 +376,18 @@ h1{
 #d9:hover {
     aspect-ratio: 1 / 1.3;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info9{
   position:absolute;
   top: 2900px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d9:hover ~ .book-info9 {
   transform: translatex(20vW);
@@ -358,7 +402,9 @@ h1{
     top: 3250px;
     width: 50%;  
     z-index:6;               
-    aspect-ratio: 1 / 0.4;     
+    aspect-ratio: 1 / 0.4; 
+    height: auto;
+    max-height:20vW;     
     overflow: hidden;          
     cursor: pointer;
     transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
@@ -373,15 +419,18 @@ h1{
 #d10:hover {
     aspect-ratio: 1 / 1.2;       
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 70vW;
 }
 .book-info10{
   position:absolute;
   top: 3250px;
   left: 55%;   
-  width: 200px;   
+  width: 20%;   
   height: 100px;
   transition: left 0.5s ease;
-  opacity: 0
+  opacity: 0;
+    line-height: 30px;
+
 }
 #d10:hover ~ .book-info10 {
   transform: translatex(20vW);
